@@ -29,6 +29,8 @@ if we had an error, and detected the network availability by the plugin help.
 **TODO**
 - cover all with tests <br/>
 - show the reason of network failures (when no network or a bad server response, etc.) <br/>
+- add logging (tracing) of calls of working with services, repos, use-cases, bloc events, ... <br/>
+- and remove print() calls! <br/>
 
 *PS*: I tried to use [infinite_scroll_pagination v3.1.0](https://pub.dev/packages/infinite_scroll_pagination),
 but unfortunately it worked with issues and haven't supported/updated for more than 8 months on today (Mar 6, 2022).
