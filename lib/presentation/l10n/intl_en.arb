@@ -1,0 +1,9 @@
+{
+  "@@locale": "en",
+  "appName": "Typicode Photos",
+  "loadPhotosButton": "Load photos",
+  "retryButton": "Retry",
+  "loadPhotosFirstPageFailedMessage" : "Sorry. Couldn't load photos.\nPlease, check Internet and try again.",
+  "loadPhotosNextPageFailedMessage" : "Couldn't load more photos.\nPlease, check Internet.",
+  "reachedEnd" : "You've reached the end!"
+}
