@@ -1,16 +1,13 @@
-  import 'package:flutter/foundation.dart';
-  import 'package:path_provider/path_provider.dart' as path;
 import 'dart:io';
 
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:hive/hive.dart';
 import 'package:injectable/injectable.dart';
+import 'package:path_provider/path_provider.dart' as path;
 import 'package:typicode_photos/presentation/features/favorites/blocs/favorite_photos_bloc.dart';
 
-import 'data/hive/hive_delegate.dart';
 import 'di.dart';
-import 'domain/photo.services/favorite_photos_service.dart';
 import 'my_app.dart';
 import 'my_http_overrides.dart';
 import 'presentation/features/photos_list/blocs/photos_list_bloc.dart';
